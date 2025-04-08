@@ -1,4 +1,4 @@
-import logoDecathlon from '../assets/svgs/logo-decathlon.svg'
+import logoDecathlon from '../assets/svgs/logo-decathlon.png'
 import cross from '../assets/svgs/cross.svg'
 import logoYeyeWeller from '../assets/svgs/logo-yeye-weller.svg'
 import cloud from '../assets/svgs/cloud.svg'

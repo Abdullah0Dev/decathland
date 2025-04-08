@@ -4,7 +4,23 @@ import { motion } from 'framer-motion'
 const Welcome = () => {
   return (
     <div className='w-full   py-9'>
-      <img src={images.separate} className='my-5' alt="sepeartor" />
+            <div className="flex  justify-center items-center w-full">
+
+          <div
+            className='w-[95%] self-center'
+            style={{
+              backgroundImage: `url(${images.pattern2})`,
+              backgroundPosition: '50%',
+              backgroundRepeat: 'repeat',
+              backgroundColor: "#37bff3",
+              backgroundSize: '100px 100px',
+              border: '3px solid #000',
+              borderRadius: '6px',
+              height: '2vw',
+            }}
+          />
+
+        </div>
       <div className='flex items-center max-md:scale-50 justify-center  gap-x-[15vw]'>
         <img src={images.speaking} alt="speaking" className='w-72 h-72 object-contain' />
         <div className='items-baseline   '>
@@ -25,7 +41,23 @@ const Welcome = () => {
       </motion.div>
       <div className='py-12'>
         
-      <img src={images.separate} className='my-5' alt="sepeartor" />
+      <div className="flex  justify-center items-center w-full">
+
+<div
+  className='w-[95%] self-center'
+  style={{
+    backgroundImage: `url(${images.pattern2})`,
+    backgroundPosition: '50%',
+    backgroundRepeat: 'repeat',
+    backgroundColor: "#37bff3",
+    backgroundSize: '100px 100px',
+    border: '3px solid #000',
+    borderRadius: '6px',
+    height: '2vw',
+  }}
+/>
+
+</div>
       </div>
       {/* About */}
       <div className='flex flex-col justify-center items-center space-y-1 '>

@@ -1,5 +1,6 @@
 import face2 from '../assets/images/face-2.gif';
 import pattern from '../assets/images/pattern.png';
+import pattern2 from '../assets/images/pattern2.png';
 import speaking from '../assets/images/speaker.gif';
 import socksBg from '../assets/images/socks-bg.png';
 import socks from '../assets/images/socks.png';
@@ -74,6 +75,7 @@ export default {
     btnImg1,
     btnEmoji,
 btnImg2,
+pattern2,
 pressPlay,
     ticket,
     character,

@@ -3,7 +3,7 @@ import {svgs, images} from '../constants'
 const Navbar = () => {
     return (
         <> 
-        <div className=" flex justify-start max-sm:flex-col max-lg:items-center gap-x-[11vw]  items-baseline mx-12 ">
+        <div className=" flex justify-start max-sm:flex-col max-lg:items-center gap-x-[11vw] mb-12 items-baseline mx-12 ">
         <img src={images.face2} alt="face2" className='object-contain max-md:hidden mt-8 w-44 h-44' />
         <div className='flex justify-center max-2xl:-mt-9 max-lg:mt-[7vw] max-sm:gap-4 items-center gap-x-12'>
             <img src={svgs.logoDecathlon} alt='logo' className='object-contain max-sm:w-24 w-44 h-16' />

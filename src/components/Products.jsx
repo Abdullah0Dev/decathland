@@ -130,7 +130,23 @@ const Products = () => {
   return (
     <div className="flex">
       <div className='w-full items-center flex-col'>
-        <img src={images.separate} className='mb-9 py-6 self-center' alt="separator" />
+      <div className="flex  justify-center items-center w-full">
+
+<div
+  className='w-[95%] self-center'
+  style={{
+    backgroundImage: `url(${images.pattern2})`,
+    backgroundPosition: '50%',
+    backgroundRepeat: 'repeat',
+    backgroundColor: "#37bff3",
+    backgroundSize: '100px 100px',
+    border: '3px solid #000',
+    borderRadius: '6px',
+    height: '2vw',
+  }}
+/>
+
+</div>
         <div className="flex -mt-40 w-full px-9 py-20 items-center flex-wrap justify-between">
           {shopData.splice(0, 4).map((item, index) => (
             <div key={index}>
@@ -188,24 +204,40 @@ const Products = () => {
                 )
               ) : (
                 <div className={`flex scale-75  ${!isEmojiVisible ? 'w-full  justify-center' : 'w-[240px]'} h-[667px] flex-col items-center justify-between`}>
-                 <div className={`  ${!isEmojiVisible ? 'w-[70%]  ' : 'w-full'}  `}>
-                  <ShopItem
-                    color={item.color}
-                    bgImage={item.bgImage}
-                    image={item.image}
-                    shootImage={item.shootImage}
-                    title={item.title}
-                    price={item.price}
-                    width={item.width}
-                    height={item.height}
-                  />
-</div>
+                  <div className={`  ${!isEmojiVisible ? 'w-[70%]  ' : 'w-full'}  `}>
+                    <ShopItem
+                      color={item.color}
+                      bgImage={item.bgImage}
+                      image={item.image}
+                      shootImage={item.shootImage}
+                      title={item.title}
+                      price={item.price}
+                      width={item.width}
+                      height={item.height}
+                    />
+                  </div>
                 </div>
               )}
             </div>
           ))}
         </div>
-        <img src={images.separate} className='my-5' alt="separator" />
+        <div className="flex  justify-center items-center w-full">
+
+<div
+  className='w-[95%] self-center'
+  style={{
+    backgroundImage: `url(${images.pattern2})`,
+    backgroundPosition: '50%',
+    backgroundRepeat: 'repeat',
+    backgroundColor: "#37bff3",
+    backgroundSize: '100px 100px',
+    border: '3px solid #000',
+    borderRadius: '6px',
+    height: '2vw',
+  }}
+/>
+
+</div>
       </div>
     </div>
   );

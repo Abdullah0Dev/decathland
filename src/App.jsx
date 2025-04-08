@@ -50,8 +50,8 @@ const App = () => {
       <div className="bg-blue/80 py-32">
         <Zooming />
       </div>
-<div className="bg-blue/80 h-80" />
-<div className='h-[1300px] '>
+{/* <div className="bg-blue/80 h-80" /> */}
+<div className='h-[1200px] '>
         <Footer />
       </div>
     </div>
